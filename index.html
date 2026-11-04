@@ -13,12 +13,14 @@
   align-items: stretch;
 }
 
+
 #projects .card {
   display: grid;
-  grid-template-rows: 28px 56px 210px 1fr 48px;
+  grid-template-rows: 28px 56px 210px minmax(110px, 1fr) 48px;
   gap: 12px;
-  align-content: start;
+  align-content: stretch;
 }
+
 
 #projects .card .tag,
 #projects .card h3,
